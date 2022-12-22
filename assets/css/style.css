@@ -10,3 +10,22 @@ body {
     font-size: 1.6rem;
     font-family: 'Poppins';
 }
+.content {
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    background: #E6F0FF;
+    height: 100vh;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav ul {
+    display: flex;
+}
