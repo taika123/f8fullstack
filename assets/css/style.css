@@ -27,6 +27,7 @@ a{
 }
 
 .header{
+    position: relative; 
     background: #E6F0FF;
     height: 100vh;
 }
@@ -34,7 +35,6 @@ a{
 
 .navbar {
     display: flex;
-    /* justify-content: space-around; */
     align-items: center;
     padding-top: 38px;
 }
@@ -62,7 +62,7 @@ a{
     margin-left: auto;
 }
 
-.action .btn {
+.btn {
     display: inline-block;
     min-width: 98px;
     color: #E6F0FF;
@@ -94,9 +94,46 @@ a{
 /* -----hero---- */
 
 .hero{
+    margin-top: 130px;
+}
+
+.hero .info {
+    width: 51%;
+}
+
+.hero .sub-title {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    color: #687690;
+}
+
+.hero .title {
+    margin-top: 8px;
+    font-weight: 700;
+    font-size: 6.4rem;
+    line-height: 1.19;
+    color: #000336; 
+}
+
+.hero .desc {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.78;
+    color: #5A6473;
     margin-top: 30px;
 }
 
-.info {
-    
+.hero .btn-hero{
+    margin-top: 40px;
+    min-width: 170px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.hero-img{
+    position: absolute;
+    right: calc((100vw - 1110px) / 2 - 100px);
+    bottom: 0;
 }
