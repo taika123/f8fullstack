@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: #0F1B4C;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -9,9 +13,15 @@ html {
 body {
     font-size: 1.6rem;
     font-family: 'Poppins';
+    
+}
+/* common */
+a{
+    text-decoration: none;
 }
 .content {
     width: 1110px;
+    max-width: calc(100% - 48px);
     margin-left: auto;
     margin-right: auto;
 }
@@ -21,11 +31,72 @@ body {
     height: 100vh;
 }
 
-.nav {
+
+.navbar {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    align-items: center;
+    padding-top: 38px;
 }
 
-.nav ul {
+.navbar ul {
     display: flex;
+    margin-left: 50px;
+}
+
+.navbar ul a {
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #4F5361;
+    padding: 8px 14px ;
+}
+
+.navbar ul a:hover {
+    background-color: var(--primary-color); 
+    color: #E6F0FF;
+    border-radius: 5px;
+    border-bottom: 1px solid orange;
+}
+
+.action{
+    margin-left: auto;
+}
+
+.action .btn {
+    display: inline-block;
+    min-width: 98px;
+    color: #E6F0FF;
+    padding: 8px 16px;
+    background: var(--primary-color);
+    border-radius: 8px;
+    font-weight: 500;
+    padding: 18px 16px;
+    cursor: pointer;
+    font-size: 1.4rem;
+    align-items: center;
+}
+
+.btn:hover {
+    opacity: .9;
+}
+
+.action .action-link{
+    margin-right: 12px;
+    font-size: 1.4rem;
+}
+
+.navbar .action-btn {
+    padding: 13px 16px;
+    margin-left: 18px;
+}
+
+
+/* -----hero---- */
+
+.hero{
+    margin-top: 30px;
+}
+
+.info {
+    
 }
