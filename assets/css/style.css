@@ -68,7 +68,7 @@ a{
     color: #E6F0FF;
     padding: 8px 16px;
     background: var(--primary-color);
-    border-radius: 8px;
+    border-radius: 12px;
     font-weight: 500;
     padding: 18px 16px;
     cursor: pointer;
@@ -88,6 +88,8 @@ a{
 .navbar .action-btn {
     padding: 13px 16px;
     margin-left: 18px;
+    border-radius: 8px;
+    text-align: center;
 }
 
 
@@ -136,4 +138,145 @@ a{
     position: absolute;
     right: calc((100vw - 1110px) / 2 - 100px);
     bottom: 0;
+}
+
+/* Clients */
+
+.clients {
+    margin-top: 122px;
+}
+
+.clients .row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.clients .desc {
+    margin-top: 23px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #7D8589;
+}
+
+.clients .images {
+    margin-top: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.guides {
+    margin-top: 196px;
+    text-align: center;
+}
+
+.guides .sub-title {
+    position: relative;
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 1;
+    text-align: center;
+    color: #000339;
+}
+
+.guides .sub-title::before {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 41px;
+    height: 4px;
+    background: #000339;
+    border-radius: 12px;
+}
+
+.guides .desc {
+    margin: 20px auto 0;
+    width: 459px;
+    max-width: 100%;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.88;
+    color: #5A6473;
+}
+
+.guides .list-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.guide-item {
+    margin:0 70px;
+    text-align: center;
+}
+
+.guide-item .title {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 1.1;
+    margin-top: 26px;
+    margin-bottom: 10px;
+    color: #3B3C45;
+}
+
+.guide-item .link {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #0689FF;
+}
+
+
+.guide-item .link .arrow {
+    margin-left: 6px;
+}
+
+.guide-cta {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.guide-cta .btn{
+    margin-top: 50px; 
+    min-width: 170px;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: #FFFFFF;  
+}
+
+.featured{
+    margin-top: 110px;
+    background: #F5FAFE;
+}
+
+.featured .title {
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 1;
+    color: #000339;
+}
+
+.featured .content-desc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured .content-desc {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #5A6473;
+}
+
+.featured .link {
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.1;
+    color: #0689FF;
+    margin-bottom: 68px;
 }
