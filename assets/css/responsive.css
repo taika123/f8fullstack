@@ -78,6 +78,10 @@
     display: none;
   }
 
+  .menu-drawer ul li:hover {
+    background-color: #999;
+  }
+
   .hero-wrap .info {
     width: 80%;
     text-align: center;
@@ -169,8 +173,17 @@
     display: none;
   }
 
+  .hero-wrap {
+    height: 500px;
+  }
+
+  .hero-wrap .sub-title,
+  .hero-wrap .desc {
+    font-size: 1.6rem;
+  }
+
   .hero-wrap .title {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 
   .hero-wrap .info {
@@ -178,24 +191,32 @@
     text-align: center;
   }
 
+  .clients {
+    margin-top: 40px;
+  }
   .clients .images {
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  .hide-on-mobile {
+    display: none;
   }
 
   .guides .list-icon {
     display: block;
   }
   .guide-item {
-    margin-top: 20px;
-  }
-
-  .featured .desc {
-    font-size: 1.4rem;
+    margin-top: 50px;
   }
 
   .featured .link {
     margin-top: 22px;
+    display: none;
+  }
+
+  .featured .desc {
+    margin: 30px 0 30px 0;
   }
 
   .featured .list {
@@ -223,6 +244,7 @@
 
   .stats .row-qty {
     flex-direction: row;
+    padding: 0;
   }
 
   .stats .qty-item {
@@ -241,11 +263,16 @@
     display: none;
   }
 
+  .subscription .info {
+    text-align: center;
+  }
+
   .subscription .info .sub-title {
     font-size: 2rem;
   }
 
   .subscription .desc {
+    margin: 20px 0 20px 0;
     font-size: 1.1rem;
   }
 
@@ -260,8 +287,18 @@
   }
 
   .footer .logo {
-    width: 50%;
+    width: 35%;
     height: 100%;
     margin-bottom: 10px;
+  }
+
+  .footer .copyright {
+    margin-top: 20px;
+    font-size: 1.3rem;
+  }
+
+  .footer .item a,
+  footer .desc {
+    font-size: 1.4rem;
   }
 }
